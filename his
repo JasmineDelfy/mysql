@@ -1,0 +1,26 @@
+Here’s a simple Python code to create a histogram using the Matplotlib library:
+
+Copy code
+import matplotlib.pyplot as plt
+
+# Sample data
+data = [12, 15, 13, 17, 19, 21, 22, 25, 22, 18, 16, 14, 13, 12, 15, 19]
+
+# Create histogram
+plt.hist(data, bins=8, color='skyblue', edgecolor='black')
+
+# Add labels and title
+plt.xlabel('Value Range')
+plt.ylabel('Frequency')
+plt.title('Histogram Example')
+
+# Show the plot
+plt.show()
+
+Explanation:
+data: The list contains the values to be plotted.
+bins: Defines the number of intervals (bars) in the histogram.
+color: Sets the fill color of the bars.
+edgecolor: Adds a border color to the bars for better visibility.
+
+Feel free to customize the data, colors, or number of bins to suit your needs!
